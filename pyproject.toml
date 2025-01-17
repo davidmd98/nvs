@@ -1,0 +1,17 @@
+[tool.poetry]
+name="scratch-project"
+version="0.0.0"
+description="Set up a project from scratch"
+authors=["David Martinez <davidmd98@gmail.com>"]
+license="MIT"
+readme="README.MD"
+packages=[{include="."}]
+
+[tool.poetry.dependencies]
+python="3.13.1"
+pandas="2.2.3"
+scikit-learn="1.6.1"
+setuptools="75.8.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff="0.9.1"

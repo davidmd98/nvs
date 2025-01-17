@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "name": "scratch project",
+            "request": "launch",
+            "type": "python",
+            "module": "__main__",
+            "console": "internalConsole"
+        }
+    ]
+}
